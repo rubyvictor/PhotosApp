@@ -12,6 +12,9 @@
 		B11296B91D903F3200E23E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11296B71D903F3200E23E82 /* Main.storyboard */; };
 		B11296BB1D903F3200E23E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11296BA1D903F3200E23E82 /* Assets.xcassets */; };
 		B11296BE1D903F3200E23E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11296BC1D903F3200E23E82 /* LaunchScreen.storyboard */; };
+		B11296C61D90400900E23E82 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11296C51D90400900E23E82 /* Photo.swift */; };
+		B11296C81D90481500E23E82 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11296C71D90481500E23E82 /* PhotosViewController.swift */; };
+		B11296CA1D90563200E23E82 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11296C91D90563200E23E82 /* PhotoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B11296BA1D903F3200E23E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11296BD1D903F3200E23E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B11296BF1D903F3200E23E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11296C51D90400900E23E82 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		B11296C71D90481500E23E82 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		B11296C91D90563200E23E82 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				B11296B31D903F3200E23E82 /* AppDelegate.swift */,
+				B11296C51D90400900E23E82 /* Photo.swift */,
 				B11296B51D903F3200E23E82 /* ViewController.swift */,
 				B11296B71D903F3200E23E82 /* Main.storyboard */,
+				B11296C91D90563200E23E82 /* PhotoTableViewCell.swift */,
+				B11296C71D90481500E23E82 /* PhotosViewController.swift */,
 				B11296BA1D903F3200E23E82 /* Assets.xcassets */,
 				B11296BC1D903F3200E23E82 /* LaunchScreen.storyboard */,
 				B11296BF1D903F3200E23E82 /* Info.plist */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					B11296AF1D903F3200E23E82 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E26925RH2T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11296CA1D90563200E23E82 /* PhotoTableViewCell.swift in Sources */,
+				B11296C61D90400900E23E82 /* Photo.swift in Sources */,
+				B11296C81D90481500E23E82 /* PhotosViewController.swift in Sources */,
 				B11296B61D903F3200E23E82 /* ViewController.swift in Sources */,
 				B11296B41D903F3200E23E82 /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E26925RH2T;
 				INFOPLIST_FILE = photosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VictorLee.photosApp;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E26925RH2T;
 				INFOPLIST_FILE = photosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VictorLee.photosApp;
